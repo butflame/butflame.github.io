@@ -1,18 +1,25 @@
 ---
 layout: page
 title: 关于这里
-permalink: /about/
+permalink: /abouthere/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+> 只言片语，逼逼叨叨
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+老婆 [@烈烈长安酒](https://weibo.com/u/2322514851) 喊了很久，想要我给她做个博客，记录我们鸡飞狗跳的日子。  
+我琢磨了好久，克服了懒和怂，搞了这个小地方，最后决定当自己的技术博客，哈哈
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+<br/>
 
+> "你坚持写自己的技术博客比给我弄个博客更让我开心" ——烈烈长安酒  2020.09.17 23:13:40 
 
-[jekyll-organization]: https://github.com/jekyll
+<br/>
+
+我会在这里记录我的：
+
+- 程序员生涯的点点滴滴
+- 技术相关的文档和心得
+- **我老婆的金句** - -
+- 生活里的鸡飞狗跳
+
+<p style="font-size: 1px;text-align: right">可能也当作自闭的时候和自己说话的地方吧，害</p>

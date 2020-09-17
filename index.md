@@ -5,19 +5,50 @@
 layout: home
 ---
 
-
-{% for cate in site.categories %}
-<h3 class="post-list-heading"> {{cate[0]}} </h3>
+<h2 class="page-heading"> 最近博客 </h2>
+<h3 class="post-list-heading">  技术记录  </h3>
   <ul class="post-list">
-    {% for post in cate[1] %}
+    {% assign posts = site.categories.tech | sort: "date" %}
+    {% assign post = posts.last %}
     <li>
     	{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
     	<span class="post-meta">{{ post.date | date: date_format }} | {{ post.tags }}</span>
     	<a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
     	{%- if site.show_excerpts -%}{{ post.excerpt }}{%- endif -%}
     </li>
-    {% endfor %}
   </ul>
 
 <br/>
-{% endfor %}
+
+
+
+<h3 class="post-list-heading">  生涯随记  </h3>
+  <ul class="post-list">
+    {% assign posts = site.categories.career | sort: "date" %}
+    {% assign post = posts.last %}
+    <li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ post.date | date: date_format }} | {{ post.tags }}</span>
+        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        {%- if site.show_excerpts -%}{{ post.excerpt }}{%- endif -%}
+    </li>
+  </ul>
+
+<br/>
+
+
+
+<h3 class="post-list-heading">  鸡零狗碎  </h3>
+  <ul class="post-list">
+    {% assign posts = site.categories.life | sort: "date" %}
+    {% assign post = posts.last %}
+    <li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ post.date | date: date_format }} | {{ post.tags }}</span>
+        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        {%- if site.show_excerpts -%}{{ post.excerpt }}{%- endif -%}
+    </li>
+  </ul>
+
+<br/>
+
