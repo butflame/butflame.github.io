@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2020-09-16 11:57:52 +0800
-category: jekyll
+<!-- category: jekyll -->
 tag: 教程
 ---
 
