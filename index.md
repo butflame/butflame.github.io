@@ -6,7 +6,7 @@ layout: home
 ---
 
 <h2 class="page-heading"> 最近博客 </h2>
-<h3 class="post-list-heading">  技术记录  </h3>
+<h3 class="post-list-heading">  技术文档 </h3>
   <ul class="post-list">
     {% assign posts = site.categories.tech | sort: "date" %}
     {% assign post = posts.last %}

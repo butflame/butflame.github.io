@@ -3,7 +3,7 @@ layout: page
 permalink: /category/tech/
 ---
 
-<h3 class="post-list-heading">  技术记录  </h3>
+<h3 class="post-list-heading">  技术文档  </h3>
   <ul class="post-list">
     {% assign posts = site.categories.tech | sort: "date" %}
     {% for post in posts %}
