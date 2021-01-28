@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "我爱我的小摩托"
+title:  "摩托佬快乐的一天"
 category: life
 date: 2021-01-28 11:46:00 +0800
 tag: 摩托
