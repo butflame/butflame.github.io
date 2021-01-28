@@ -4,6 +4,10 @@ layout: page
 permalink: /aboutme/
 ---
 
+<p>左手键盘，右手摩托，高压锅体质的铁憨憨</p>
+<p>最近沉迷无离合换挡，正在跟我的幼狮持续搏斗</p>
+
+<!-- 
 > 长安大学（211） 交通运输专业 本科  2011-2015
 
 --- 
@@ -75,4 +79,4 @@ permalink: /aboutme/
 ---
 
 ## 其他
-- （2017年）使用numpy改造色调提取工具haishoku，提取效率提升近10倍 https://github.com/butflame/haishoku
+- （2017年）使用numpy改造色调提取工具haishoku，提取效率提升近10倍 https://github.com/butflame/haishoku -->
