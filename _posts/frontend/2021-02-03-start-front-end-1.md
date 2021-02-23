@@ -14,6 +14,12 @@ tags: 前端 html+css
 ## 第一本书 《Head First HTMLCSS》
 html和css在我看来是可以随用随查的，因此这部分只会留下一些提示性的内容。
 
+
+<div style="margin: 60px 0">
+	<h4> 第一至第五章 </h4>
+	<p>前五章科普性质的介绍了html，列举了常用标签，并简单提到了css, 这里只做一些简单的笔记</p>
+</div>
+
 <h4 style="text-decoration: underline;">HTML</h4>
 
 - html是标记语言，其所有的内容都包裹在形如`<html>`的标签中
@@ -36,6 +42,50 @@ body {
 
 瞎理解：块元素独占全部宽度，或者说自带前后换行，比如`<h2>`, `<p>`, `<blockquote>`；内联元素不自带换行，比如`<a>`, `<em>`, `<strong>`
 
-**只用来换行的元素`<br/>`**
+---
 
-> ongoing...pause in page 139
+瞎记
+
+- 只用来换行的元素`<br/>`**
+
+- 有序列表`<ol>`, 无序列表`<ul>`, 两种列表元素都用`<li>`包裹
+
+- `<a>`标签表示链接，点击`<a>`标签包裹的元素将跳转至`src`属性指定的链接，且`target`属性表示在哪个窗口进行跳转，如果`target="_blank"`则会在新的窗口打开。  
+
+- `<img src="some/path/to/image.jpg" alt="alternative text">` 是一个`img`标签示例，`src`属性表示图片源，`alt`表示当图片不存在或加载失败时显示的文本
+
+
+<div style="margin: 60px 0; font-style: oblique;">
+	第六章讨论html标准，第七章讨论xhtml，略过略过
+</div>
+
+
+<div style="margin: 60px 0">
+	<h4> 第八章 CSS </h4>
+</div>
+
+> CSS里面的每个语句都包括一个场所（就像卧室），一个属性（就像窗帘和地毯）和一个提供给属性的样式（就像蓝色，或者一寸的瓷砖）
+
+<p style="background-color: red; border: 1px solid gray; color: maroon">
+	示例：为段落添加背景颜色、字体颜色和边框
+</p>
+
+css代码：
+```css
+p {
+	background-color: red; 
+	border: 1px solid gray; 
+	color: maroon;
+}
+```
+
+为多个标签添加相同的样式：
+```css
+h1, h2 {
+	font-family: sans-serif;
+	color: gray;
+}
+```
+
+> pausing on page 335...
+
