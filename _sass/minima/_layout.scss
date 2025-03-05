@@ -218,8 +218,8 @@
 }
 
 .post-title {
-  @include relative-font-size(1.4);
-  letter-spacing: -1px;
+  @include relative-font-size(2);
+  letter-spacing: 1px;
   line-height: 1;
 
   @include media-query($on-laptop) {
@@ -231,7 +231,7 @@
   margin-bottom: $spacing-unit / 2;
 
   h2 {
-    @include relative-font-size(1.6);
+    @include relative-font-size(1.5);
 
     @include media-query($on-laptop) {
       @include relative-font-size(1.5);
