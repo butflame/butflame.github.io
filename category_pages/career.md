@@ -5,7 +5,7 @@ permalink: /category/career/
 
 <h3 class="post-list-heading">  生涯随记  </h3>
   <ul class="post-list">
-    {% assign posts = site.categories.career | sort: "date" %}
+    {% assign posts = site.categories.career | sort: "date" | reverse %}
     {% for post in posts %}
     <li>
     	{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}

@@ -254,3 +254,11 @@
     }
   }
 }
+
+hr {
+  margin-top: $spacing-unit / 2;
+  margin-bottom: $spacing-unit / 2;
+  border-width: 2px;
+  border-style: solid;
+  border-color: $grey-color;
+}
