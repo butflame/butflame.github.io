@@ -4,6 +4,7 @@ title:  "Welcome to Jekyll!"
 date:   2020-09-16 11:57:52 +0800
 category: tech
 tag: 教程
+hidden: true
 ---
 
 First meet jekyll

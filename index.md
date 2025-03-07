@@ -10,12 +10,14 @@ layout: home
   <ul class="post-list">
     {% assign posts = site.categories.tech | sort: "date" | reverse | slice: 0, 3 %}
     {% for post in posts %}
+      {% unless post.hidden %}
         <li>
         	{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         	<span class="post-meta">{{ post.date | date: date_format }} {% if post.tags.size > 0 %} | {{ post.tags | join: ", " }} {% endif %} </span>
         	<a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         	{%- if site.show_excerpts -%}{{ post.excerpt }}{%- endif -%}
         </li>
+      {% endunless %}
     {% endfor %}
   </ul>
 
@@ -26,12 +28,14 @@ layout: home
   <ul class="post-list">
     {% assign posts = site.categories.career | sort: "date" | reverse | slice: 0, 3 %}
     {% for post in posts %}
+      {% unless post.hidden %}
         <li>
-            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-            <span class="post-meta">{{ post.date | date: date_format }} | {% if post.tags.size > 0 %} | {{ post.tags | join: ", " }} {% endif %}</span>
-            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-            {%- if site.show_excerpts -%}{{ post.excerpt }}{%- endif -%}
+        	{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        	<span class="post-meta">{{ post.date | date: date_format }} {% if post.tags.size > 0 %} | {{ post.tags | join: ", " }} {% endif %} </span>
+        	<a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        	{%- if site.show_excerpts -%}{{ post.excerpt }}{%- endif -%}
         </li>
+      {% endunless %}
     {% endfor %}
   </ul>
 <br/>
@@ -42,12 +46,14 @@ layout: home
   <ul class="post-list">
     {% assign posts = site.categories.life | sort: "date" | reverse | slice: 0, 3 %}
     {% for post in posts %}
+      {% unless post.hidden %}
         <li>
-            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-            <span class="post-meta">{{ post.date | date: date_format }} {% if post.tags.size > 0 %} | {{ post.tags | join: ", " }} {% endif %}</span>
-            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-            {%- if site.show_excerpts -%}{{ post.excerpt }}{%- endif -%}
+        	{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        	<span class="post-meta">{{ post.date | date: date_format }} {% if post.tags.size > 0 %} | {{ post.tags | join: ", " }} {% endif %} </span>
+        	<a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        	{%- if site.show_excerpts -%}{{ post.excerpt }}{%- endif -%}
         </li>
+      {% endunless %}
     {% endfor %}
   </ul>
 
