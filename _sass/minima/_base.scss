@@ -292,3 +292,8 @@ table {
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
 }
+
+.strong {
+  @include relative-font-size(1.25);
+  font-weight: bold;
+}
