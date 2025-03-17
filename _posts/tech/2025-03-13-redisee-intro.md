@@ -34,4 +34,4 @@ excerpt: 一个go语言实现的redis内存使用分析工具
 
 > 磨叽的时候在github上找到了这个同类型的玩意儿，已经700+star了，搞不好咱也能整个小火一把的repo呢？
 > 
-> [redis-memory-analyzer](https://github.com/gamenet/redis-memory-analyzer)
+<a href="https://github.com/gamenet/redis-memory-analyzer" target="_blank">redis-memory-analyzer</a>
