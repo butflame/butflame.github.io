@@ -35,3 +35,5 @@ excerpt: 一个go语言实现的redis内存使用分析工具
 > 磨叽的时候在github上找到了这个同类型的玩意儿，已经700+star了，搞不好咱也能整个小火一把的repo呢？
 > 
 <a href="https://github.com/gamenet/redis-memory-analyzer" target="_blank">redis-memory-analyzer</a>
+
+[这里有一些redis库](https://awesome-go.com/) 在**NoSQL Database Drivers**中找
