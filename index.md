@@ -5,6 +5,8 @@
 layout: home
 ---
 
+<img src="https://lf-developer-cdn.open-douyin.com/obj/open-platform-scm/developer/open_platform_master/product/favicon.ico" alt="">
+
 <h2 class="page-heading"> 最近博客 </h2>
 <h3 class="post-list-heading">  技术文档 </h3>
   <ul class="post-list">
