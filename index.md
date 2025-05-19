@@ -5,8 +5,6 @@
 layout: home
 ---
 
-<img src="https://sf1-cdn-tos.douyinstatic.com/obj/microapp/frontend/docs/images/%E6%8A%96%E9%9F%B3%E5%BC%80%E5%8F%91%E8%80%85%E5%AD%A6%E5%A0%82%E6%8A%96%E9%9F%B3%E5%8F%B7-4563578276862761.png" alt="">
-
 <h2 class="page-heading"> 最近博客 </h2>
 <h3 class="post-list-heading">  技术文档 </h3>
   <ul class="post-list">
